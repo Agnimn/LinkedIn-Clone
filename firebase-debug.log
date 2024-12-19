@@ -1,0 +1,95 @@
+[debug] [2024-12-19T03:17:11.674Z] ----------------------------------------------------------------------
+[debug] [2024-12-19T03:17:11.683Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Agni Mn\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-12-19T03:17:11.684Z] CLI Version:   13.29.1
+[debug] [2024-12-19T03:17:11.684Z] Platform:      win32
+[debug] [2024-12-19T03:17:11.684Z] Node Version:  v22.12.0
+[debug] [2024-12-19T03:17:11.684Z] Time:          Thu Dec 19 2024 08:47:11 GMT+0530 (India Standard Time)
+[debug] [2024-12-19T03:17:11.684Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-19T03:17:11.841Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-19T03:17:11.842Z] > authorizing via signed-in user (agnimn95@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2024-12-19T03:17:11.854Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-19T03:17:11.854Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-19T03:17:11.855Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-12-19T03:17:11.862Z] [hub] writing locator at C:\Users\AGNIMN~1\AppData\Local\Temp\hub-linkedin-clone-3ee10.json
+[debug] [2024-12-19T03:17:11.895Z] Checked if tokens are valid: false, expires at: 1734577814207
+[debug] [2024-12-19T03:17:11.896Z] Checked if tokens are valid: false, expires at: 1734577814207
+[debug] [2024-12-19T03:17:11.896Z] > refreshing access token with scopes: []
+[debug] [2024-12-19T03:17:11.898Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-12-19T03:17:11.898Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-19T03:17:12.033Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-12-19T03:17:12.033Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-19T03:17:12.049Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/linkedin-clone-3ee10/sites 
+[debug] [2024-12-19T03:17:13.974Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/linkedin-clone-3ee10/sites 200
+[debug] [2024-12-19T03:17:13.974Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/linkedin-clone-3ee10/sites {"sites":[{"name":"projects/linkedin-clone-3ee10/sites/linkedin-clone-3ee10","defaultUrl":"https://linkedin-clone-3ee10.web.app","appId":"1:109667070294:web:6fe08f7a39d92ab6bb26f7","type":"DEFAULT_SITE"}]}
+[debug] [2024-12-19T03:17:13.974Z] Checked if tokens are valid: true, expires at: 1734581831033
+[debug] [2024-12-19T03:17:13.974Z] Checked if tokens are valid: true, expires at: 1734581831033
+[debug] [2024-12-19T03:17:13.974Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-3ee10/webApps/1:109667070294:web:6fe08f7a39d92ab6bb26f7/config [none]
+[debug] [2024-12-19T03:17:15.067Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-3ee10/webApps/1:109667070294:web:6fe08f7a39d92ab6bb26f7/config 200
+[debug] [2024-12-19T03:17:15.067Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-3ee10/webApps/1:109667070294:web:6fe08f7a39d92ab6bb26f7/config {"projectId":"linkedin-clone-3ee10","appId":"1:109667070294:web:6fe08f7a39d92ab6bb26f7","storageBucket":"linkedin-clone-3ee10.firebasestorage.app","apiKey":"AIzaSyBEdtYJ1330XN5AJFOdlZt4cZM-aHy6g4k","authDomain":"linkedin-clone-3ee10.firebaseapp.com","messagingSenderId":"109667070294"}
+[debug] [2024-12-19T03:17:15.075Z] Checked if tokens are valid: true, expires at: 1734581831033
+[debug] [2024-12-19T03:17:15.075Z] Checked if tokens are valid: true, expires at: 1734581831033
+[debug] [2024-12-19T03:17:15.075Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-3ee10 [none]
+[debug] [2024-12-19T03:17:15.564Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-3ee10 200
+[debug] [2024-12-19T03:17:15.564Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-3ee10 {"projectId":"linkedin-clone-3ee10","projectNumber":"109667070294","displayName":"LinkedIn-clone","name":"projects/linkedin-clone-3ee10","resources":{"hostingSite":"linkedin-clone-3ee10"},"state":"ACTIVE","etag":"1_a6745e64-967e-4d84-acda-c0c3495cd415"}
+[info] i  hosting[linkedin-clone-3ee10]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[linkedin-clone-3ee10]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2024-12-19T03:17:15.597Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: connect ECONNREFUSED ::1:40001. If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-12-19T03:44:14.737Z] Received signal SIGHUP 1
+[debug] [2024-12-19T03:51:12.238Z] ----------------------------------------------------------------------
+[debug] [2024-12-19T03:51:12.246Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Agni Mn\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting --port=5002
+[debug] [2024-12-19T03:51:12.246Z] CLI Version:   13.29.1
+[debug] [2024-12-19T03:51:12.246Z] Platform:      win32
+[debug] [2024-12-19T03:51:12.247Z] Node Version:  v22.12.0
+[debug] [2024-12-19T03:51:12.247Z] Time:          Thu Dec 19 2024 09:21:12 GMT+0530 (India Standard Time)
+[debug] [2024-12-19T03:51:12.247Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-19T03:51:12.373Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-19T03:51:12.374Z] > authorizing via signed-in user (agnimn95@gmail.com)
+[debug] [2024-12-19T03:51:12.374Z] [iam] checking project linkedin-clone-3ee10 for permissions ["firebase.projects.get"]
+[debug] [2024-12-19T03:51:12.375Z] Checked if tokens are valid: true, expires at: 1734581831033
+[debug] [2024-12-19T03:51:12.375Z] Checked if tokens are valid: true, expires at: 1734581831033
+[debug] [2024-12-19T03:51:12.376Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/linkedin-clone-3ee10:testIamPermissions [none]
+[debug] [2024-12-19T03:51:12.376Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/linkedin-clone-3ee10:testIamPermissions x-goog-quota-user=projects/linkedin-clone-3ee10
+[debug] [2024-12-19T03:51:12.376Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/linkedin-clone-3ee10:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-12-19T03:51:13.628Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/linkedin-clone-3ee10:testIamPermissions 200
+[debug] [2024-12-19T03:51:13.628Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/linkedin-clone-3ee10:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-12-19T03:51:13.629Z] Checked if tokens are valid: true, expires at: 1734581831033
+[debug] [2024-12-19T03:51:13.629Z] Checked if tokens are valid: true, expires at: 1734581831033
+[debug] [2024-12-19T03:51:13.629Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/linkedin-clone-3ee10 [none]
+[debug] [2024-12-19T03:51:13.948Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/linkedin-clone-3ee10 200
+[debug] [2024-12-19T03:51:13.948Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/linkedin-clone-3ee10 {"projectNumber":"109667070294","projectId":"linkedin-clone-3ee10","lifecycleState":"ACTIVE","name":"LinkedIn-clone","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2024-12-19T01:58:30.755974Z"}
+[debug] [2024-12-19T03:51:13.950Z] Checked if tokens are valid: true, expires at: 1734581831033
+[debug] [2024-12-19T03:51:13.950Z] Checked if tokens are valid: true, expires at: 1734581831033
+[debug] [2024-12-19T03:51:13.950Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/linkedin-clone-3ee10/sites 
+[debug] [2024-12-19T03:51:14.929Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/linkedin-clone-3ee10/sites 200
+[debug] [2024-12-19T03:51:14.929Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/linkedin-clone-3ee10/sites {"sites":[{"name":"projects/linkedin-clone-3ee10/sites/linkedin-clone-3ee10","defaultUrl":"https://linkedin-clone-3ee10.web.app","appId":"1:109667070294:web:6fe08f7a39d92ab6bb26f7","type":"DEFAULT_SITE"}]}
+[debug] [2024-12-19T03:51:14.930Z] Checked if tokens are valid: true, expires at: 1734581831033
+[debug] [2024-12-19T03:51:14.930Z] Checked if tokens are valid: true, expires at: 1734581831033
+[debug] [2024-12-19T03:51:14.930Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-3ee10/webApps/1:109667070294:web:6fe08f7a39d92ab6bb26f7/config [none]
+[debug] [2024-12-19T03:51:16.056Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-3ee10/webApps/1:109667070294:web:6fe08f7a39d92ab6bb26f7/config 200
+[debug] [2024-12-19T03:51:16.056Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-3ee10/webApps/1:109667070294:web:6fe08f7a39d92ab6bb26f7/config {"projectId":"linkedin-clone-3ee10","appId":"1:109667070294:web:6fe08f7a39d92ab6bb26f7","storageBucket":"linkedin-clone-3ee10.firebasestorage.app","apiKey":"AIzaSyBEdtYJ1330XN5AJFOdlZt4cZM-aHy6g4k","authDomain":"linkedin-clone-3ee10.firebaseapp.com","messagingSenderId":"109667070294"}
+[debug] [2024-12-19T03:51:16.065Z] Checked if tokens are valid: true, expires at: 1734581831033
+[debug] [2024-12-19T03:51:16.066Z] Checked if tokens are valid: true, expires at: 1734581831033
+[debug] [2024-12-19T03:51:16.066Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-3ee10 [none]
+[debug] [2024-12-19T03:51:16.385Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-3ee10 200
+[debug] [2024-12-19T03:51:16.385Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-3ee10 {"projectId":"linkedin-clone-3ee10","projectNumber":"109667070294","displayName":"LinkedIn-clone","name":"projects/linkedin-clone-3ee10","resources":{"hostingSite":"linkedin-clone-3ee10"},"state":"ACTIVE","etag":"1_a6745e64-967e-4d84-acda-c0c3495cd415"}
+[info] i  hosting[linkedin-clone-3ee10]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[linkedin-clone-3ee10]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}
